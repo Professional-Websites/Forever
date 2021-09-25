@@ -6513,7 +6513,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .logo-light, .is-transparent:not(.has-fixed) .logo-dark, .is-dark .logo-dark { display: none; }
 
-.logo img { height: 58px; transition: all .4s; }
+.logo img { height: 76px; transition: all .4s; }
 
 .logo-md img { height: 44px; }
 
@@ -6525,7 +6525,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .header-container:not(.container) { padding: 0 25px; }
   .header-container-s1:not(.container) { padding: 0 25px; }
   .header-banner { min-height: 98px; }
-  .logo img { height: 40px; }
+  .logo img { height: 75px; }
   .logo-md img { height: 50px; }
   .logo-lg img { height: 60px; } }
 
@@ -6819,7 +6819,10 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .section-mxw-b-0 { padding-top: 0; } }
 
 @media (max-width: 767px) { .section-sm-mxw-t-0 { padding-top: 0; }
-  .section-sm-mxw-b-0 { padding-top: 0; } }
+  .section-sm-mxw-b-0 { padding-top: 0; } 
+.logo img{
+  height: 50px;
+}}
 
 @media (max-width: 991px) { .section-md-mxw-t-0 { padding-top: 0; }
   .section-md-mxw-b-0 { padding-bottom: 0 !important; } }
